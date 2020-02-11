@@ -14,7 +14,7 @@ sap.ui.define([
 					},
 					{
 						title: "Item 2",
-						description: "desc 2"
+						description: "desc 3"
 					}					
 				]
 			});
