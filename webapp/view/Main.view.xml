@@ -1,0 +1,16 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="mynamespaceEmptyApp.controller.Main" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<List noDataText="Drop list items here" items="{/items}" itemPress="onListItemPressed">
+						<items>
+							<StandardListItem type="Navigation" title="{title}" description="{description}" icon="sap-icon://picture"/>
+						</items>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
